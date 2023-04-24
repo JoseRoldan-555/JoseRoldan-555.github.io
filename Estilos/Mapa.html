@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mapa Turistico de Mexico</title>
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   		crossorigin=""/>		
+	<link rel="stylesheet" type="text/css" href="Mapa.css"/>	
+
+	<h1>Visita los sitios turisticos de Mexico</h1>
+	<select name="select-location" id="select-location">
+		<option value="-1">Seleccione un lugar:</option>
+		<option value="21.160408,-86.832753">Cancun</option>
+		<option value="20.628089,-87.078047">Playa del Carmen</option>	
+		<option value="20.507451,-86.946490">Cozumel</option>
+		<option value="20.647779,-105.236368">Puerto Vallarta</option>
+		<option value="22.889268,-109.916690">Cabo San Lucas</option>
+		<option value="19.438845,-99.129234">Ciudad De México</option>
+		<option value="20.213239,-87.467569">Tulum</option>
+		<option value="20.677502,-88.567100">Chichen Itza</option>		
+		<option value="21.237067,-86.740825">Isla Mujeres</option>		
+		<option value="17.076119,-96.723017">Oaxaca de Juárez</option>			
+	</select>
+	<div id="map"></div>
+
+</head>
+<body>	
+
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   		crossorigin=""></script>   		
+	
+	<script src="Mapa.js"></script>
+</body>
+      </html>
